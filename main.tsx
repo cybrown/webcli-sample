@@ -2,6 +2,8 @@ import * as angular from 'angular';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
+import './style.less';
+
 class DefaultController {
     message = 'Hello from Angular.JS !'
 }
