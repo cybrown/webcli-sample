@@ -10,8 +10,10 @@
   "license": "ISC",
   "devDependencies": {
     "@types/angular": "^1.5.9",
+    "@types/chai": "^3.4.31",
     "@types/react": "^0.14.28",
-    "@types/react-dom": "^0.14.14"
+    "@types/react-dom": "^0.14.14",
+    "chai": "^3.5.0"
   },
   "dependencies": {
     "angular": "^1.5.8",

@@ -1,4 +1,5 @@
 import DefaultController from './DefaultController';
+import {expect} from 'chai';
 
 describe ('DefaultController', function () {
 
@@ -7,6 +8,6 @@ describe ('DefaultController', function () {
     beforeEach(() => defaultController = new DefaultController());
 
     it ('should contain a message', function () {
-        expect(defaultController.message).toEqual('Hello from Angular.JS !');
+        expect(defaultController.message).to.equal('Hello from Angular.JS !');
     });
 });
